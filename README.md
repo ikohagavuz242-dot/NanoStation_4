@@ -1,4 +1,3 @@
----
 
 ## 目录
 
@@ -362,5 +361,3 @@ openocd -f interface/stlink.cfg -f target/stm32f4x.cfg \
 - **SPI Flash**: 使用 `Flash_MutexHandle` 保护读写操作
 - **LCD 绘图**: 非 LVGL APP 通过 `lcd_draw_*` API → `LcdMsgQueueHandle` → `LcdFlushTask` 统一刷新
 - **输入扫描**: 非 LVGL APP 必须调用 `Resume_IndevDetectTask()` 启用按键/编码器扫描
-
----
