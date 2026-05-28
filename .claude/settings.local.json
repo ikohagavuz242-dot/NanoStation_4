@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(export PATH=\"/d/cmake/bin:/d/arm/bin:$PATH\")",
+      "Bash(cmake --build \"C:/Users/he/Desktop/project/XM_Power_Kit-master/build\" -j4)",
+      "Bash(ninja --version)",
+      "Bash(export PATH=\"/d/arm/bin:/d/cmake/bin:$PATH\")",
+      "Bash(cmake --preset Release)",
+      "Bash(cmake --build build/Release)"
+    ]
+  }
+}
